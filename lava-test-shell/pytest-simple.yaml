@@ -1,0 +1,10 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: pytest-simple
+    description: "Run a basic pytest test"
+    maintainer:
+        - loic.poulain@linaro.org
+
+run:
+    steps:
+        - pytest 
