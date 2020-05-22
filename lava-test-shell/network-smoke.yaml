@@ -1,0 +1,8 @@
+metadata:
+  name: network-smoke-tests
+  format: Lava-Test-Shell Test Definition 1.0
+  description: Network smoke tests
+
+run:
+    steps:
+        - sh lava-test-shell/network-smoke.sh
